@@ -1,0 +1,15 @@
+{
+    "superset_instances": [
+      {
+        "name": "Superset A",
+        "url": "http://superset-a.example.com",
+        "api_key": "SUP_SECRET_API_TOKEN_A"
+      },
+      {
+        "name": "Superset B",
+        "url": "http://superset-b.example.com",
+        "api_key": "SUP_SECRET_API_TOKEN_B"
+      }
+    ]
+  }
+  

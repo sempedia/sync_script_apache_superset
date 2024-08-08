@@ -1,0 +1,45 @@
+
+
+services:
+  postgres:
+    image: postgres:latest
+    env_file:
+      - .env
+    container_name: postgres
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+    networks:
+      - superset-network
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:5050:80"
+    networks:
+      - superset-network
+
+  superset:
+    image: apache/superset:latest
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:8088:8088"
+    depends_on:
+      - postgres
+    command: superset run -p 8088
+    networks:
+      - superset-network
+
+  
+volumes:
+  postgres-data:
+
+networks:
+  superset-network:
+    driver: bridge

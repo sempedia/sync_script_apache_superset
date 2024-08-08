@@ -1,0 +1,9 @@
+
+services:
+  superset:
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
