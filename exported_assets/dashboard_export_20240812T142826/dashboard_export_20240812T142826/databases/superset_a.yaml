@@ -1,0 +1,17 @@
+database_name: superset_a
+sqlalchemy_uri: postgresql+psycopg2://postgres:XXXXXXXXXX@host.docker.internal:5432/postgres
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: true
+extra:
+  metadata_params: {}
+  engine_params: {}
+  metadata_cache_timeout: {}
+  schemas_allowed_for_file_upload: []
+  allow_multi_catalog: true
+uuid: bfba3656-0b5f-450b-be64-4e4b00986e08
+version: 1.0.0

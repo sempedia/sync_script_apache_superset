@@ -1,0 +1,127 @@
+slice_name: advanced_analytics_base
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  datasource: 2__table
+  viz_type: echarts_timeseries_line
+  x_axis: Travel Date
+  time_grain_sqla: P1D
+  x_axis_sort: Travel Date
+  x_axis_sort_asc: true
+  metrics:
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Cost
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 8
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    aggregate: SUM
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: SUM(Cost)
+    optionName: metric_s57ufqat0i9_lgrm2cg1adk
+  groupby: []
+  adhoc_filters: []
+  limit: 50
+  timeseries_limit_metric:
+    expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Cost
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 8
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    aggregate: SUM
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: SUM(Cost)
+    optionName: metric_hj1x0wk030d_3ppaaqvdd1u
+  order_desc: false
+  row_limit: 50
+  truncate_metric: true
+  show_empty_columns: false
+  annotation_layers:
+  - name: Travel Date
+    annotationType: FORMULA
+    sourceType: ''
+    color: '#ff7f44'
+    opacity: ''
+    style: solid
+    width: 1
+    showMarkers: false
+    hideLine: false
+    overrides: {}
+    show: true
+    showLabel: true
+    titleColumn: ''
+    descriptionColumns: []
+    timeColumn: ''
+    intervalEndColumn: ''
+    value: 2x + 5
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  seriesType: line
+  only_total: true
+  opacity: 0.2
+  markerSize: 6
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  y_axis_format: SMART_NUMBER
+  truncateXAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 3
+query_context: '{"datasource":{"id":2,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1D","columnType":"BASE_AXIS","sqlExpression":"Travel
+  Date","label":"Travel Date","expressionType":"SQL"}],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":8,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Cost)","optionName":"metric_s57ufqat0i9_lgrm2cg1adk"}],"orderby":[[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":8,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Cost)","optionName":"metric_hj1x0wk030d_3ppaaqvdd1u"},true]],"annotation_layers":[{"name":"Travel
+  Date","annotationType":"FORMULA","sourceType":"","color":"#ff7f44","opacity":"","style":"solid","width":1,"showMarkers":false,"hideLine":false,"overrides":{},"show":true,"showLabel":true,"titleColumn":"","descriptionColumns":[],"timeColumn":"","intervalEndColumn":"","value":"2x
+  + 5"}],"row_limit":50,"series_columns":[],"series_limit":50,"series_limit_metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":8,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Cost)","optionName":"metric_hj1x0wk030d_3ppaaqvdd1u"},"order_desc":false,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["Travel
+  Date"],"columns":[],"aggregates":{"SUM(Cost)":{"operator":"mean"}},"drop_missing_columns":true}},{"operation":"sort","options":{"is_sort_index":true,"ascending":true}},{"operation":"flatten"}]}],"form_data":{"datasource":"2__table","viz_type":"echarts_timeseries_line","x_axis":"Travel
+  Date","time_grain_sqla":"P1D","x_axis_sort":"Travel Date","x_axis_sort_asc":true,"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":8,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Cost)","optionName":"metric_s57ufqat0i9_lgrm2cg1adk"}],"groupby":[],"adhoc_filters":[],"limit":50,"timeseries_limit_metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Cost","description":null,"expression":null,"filterable":true,"groupby":true,"id":8,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Cost)","optionName":"metric_hj1x0wk030d_3ppaaqvdd1u"},"order_desc":false,"row_limit":50,"truncate_metric":true,"show_empty_columns":false,"annotation_layers":[{"name":"Travel
+  Date","annotationType":"FORMULA","sourceType":"","color":"#ff7f44","opacity":"","style":"solid","width":1,"showMarkers":false,"hideLine":false,"overrides":{},"show":true,"showLabel":true,"titleColumn":"","descriptionColumns":[],"timeColumn":"","intervalEndColumn":"","value":"2x
+  + 5"}],"x_axis_title_margin":15,"y_axis_title_margin":15,"y_axis_title_position":"Left","sort_series_type":"sum","color_scheme":"supersetColors","seriesType":"line","only_total":true,"opacity":0.2,"markerSize":6,"show_legend":true,"legendType":"scroll","legendOrientation":"top","x_axis_time_format":"smart_date","rich_tooltip":true,"tooltipTimeFormat":"smart_date","y_axis_format":"SMART_NUMBER","truncateXAxis":true,"y_axis_bounds":[null,null],"extra_form_data":{},"dashboards":[3],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: c34bb4ed-1494-4969-8db1-e86354b462ff
+version: 1.0.0
+dataset_uuid: 91752181-843e-4bd3-97a3-54902b7b376b

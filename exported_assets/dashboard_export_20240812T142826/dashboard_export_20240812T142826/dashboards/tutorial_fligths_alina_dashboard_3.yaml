@@ -1,0 +1,272 @@
+dashboard_title: tutorial_fligths_alina_dashboard
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: dd0b1539-2c3d-4d88-8c46-d1ea033d2eda
+position:
+  CHART-explore-3-1:
+    children: []
+    id: CHART-explore-3-1
+    meta:
+      chartId: 3
+      height: 50
+      sliceName: total_fligths_per_travelclass
+      uuid: cf08dab7-c2e4-45fe-8dc3-e902f3403a89
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Su122FBg7rMJJgfhGWU8O
+    type: CHART
+  CHART-explore-4-1:
+    children: []
+    id: CHART-explore-4-1
+    meta:
+      chartId: 4
+      height: 50
+      sliceName: total_fligths_cost_per_travel_class
+      uuid: 23371e46-48ee-4073-b11a-72e80864d093
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Su122FBg7rMJJgfhGWU8O
+    type: CHART
+  CHART-explore-5-1:
+    children: []
+    id: CHART-explore-5-1
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: travel_classes
+      uuid: 8e572939-b370-42ff-aa47-d9b0b5223da7
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Su122FBg7rMJJgfhGWU8O
+    type: CHART
+  CHART-explore-6-1:
+    children: []
+    id: CHART-explore-6-1
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: total_tickets_per_airline
+      uuid: 442b33c1-3d44-4289-804e-444280a72429
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-rmJFTgw2_UoLi0B0jXvuw
+    type: CHART
+  CHART-explore-7-1:
+    children: []
+    id: CHART-explore-7-1
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: tickets_cost_by_department_travelclass
+      uuid: 063f7a2c-82b4-4b02-81ad-f8aa070bd240
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-rmJFTgw2_UoLi0B0jXvuw
+    type: CHART
+  CHART-explore-8-1:
+    children: []
+    id: CHART-explore-8-1
+    meta:
+      chartId: 8
+      height: 50
+      sliceName: average_tickets_costs_per_single_and_return
+      uuid: a891931f-23da-4f21-8a42-6315fbfc1fb2
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-rmJFTgw2_UoLi0B0jXvuw
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-Su122FBg7rMJJgfhGWU8O
+    - ROW-rmJFTgw2_UoLi0B0jXvuw
+    - ROW-eHP9sPz6b8oOd2qwEs_Yp
+    - ROW-N-TZ8DPAE7
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: tutorial_fligths_alina_dashboard
+    type: HEADER
+  MARKDOWN-hWsvPm0BZMY3_27SYjcvd:
+    children: []
+    id: MARKDOWN-hWsvPm0BZMY3_27SYjcvd
+    meta:
+      code: "# \u2728Alina\n## \u2728Dashboard\n### \u2728Header 3\n\n<br />\n\nClick\
+        \ here to learn more about [markdown formatting](https://bit.ly/1dQOfRK)"
+      height: 50
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-eHP9sPz6b8oOd2qwEs_Yp
+    type: MARKDOWN
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-Su122FBg7rMJJgfhGWU8O:
+    children:
+    - CHART-explore-3-1
+    - CHART-explore-4-1
+    - CHART-explore-5-1
+    id: ROW-Su122FBg7rMJJgfhGWU8O
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-eHP9sPz6b8oOd2qwEs_Yp:
+    children:
+    - MARKDOWN-hWsvPm0BZMY3_27SYjcvd
+    id: ROW-eHP9sPz6b8oOd2qwEs_Yp
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-rmJFTgw2_UoLi0B0jXvuw:
+    children:
+    - CHART-explore-6-1
+    - CHART-explore-7-1
+    - CHART-explore-8-1
+    id: ROW-rmJFTgw2_UoLi0B0jXvuw
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-N-TZ8DPAE7:
+    children:
+    - CHART-E4ZCDDGX
+    id: ROW-N-TZ8DPAE7
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-E4ZCDDGX:
+    children: []
+    id: CHART-E4ZCDDGX
+    meta:
+      chartId: 9
+      height: 50
+      sliceName: advanced_analytics_base
+      uuid: c34bb4ed-1494-4969-8db1-e86354b462ff
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-TZ8DPAE7
+metadata:
+  timed_refresh_immune_slices: []
+  expanded_slices: {}
+  refresh_frequency: 0
+  color_scheme: ''
+  label_colors: {}
+  shared_label_colors: {}
+  color_scheme_domain: []
+  cross_filters_enabled: true
+  chart_configuration:
+    '3':
+      id: 3
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+    '5':
+      id: 5
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 3
+        - 4
+        - 6
+        - 7
+        - 8
+    '6':
+      id: 6
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 3
+        - 4
+        - 5
+        - 7
+        - 8
+    '7':
+      id: 7
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+    '8':
+      id: 8
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  default_filters: '{}'
+version: 1.0.0
