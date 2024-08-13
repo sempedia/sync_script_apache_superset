@@ -1,0 +1,86 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+Python-3.10.12/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+egg-info/
+pip-wheel-metadata/
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.db
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage Reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test_coverage/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.dmypy.json.*
+
+# Pyre type checker
+.pyre/
+
+# pylint
+pylint-report.txt
+pylint-runner.json
+
+# Bandit
+.bandit/
+
+# pytest
+.cache/
+nosetests.xml
+pytest_debug.log
+
+# Local environment variables
+.env
+.env.*
+*.env
+*.env.*
+
+# Docker
+*.dockerfile
+*.docker-compo
